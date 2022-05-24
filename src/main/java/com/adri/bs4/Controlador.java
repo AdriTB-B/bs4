@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @ConfigurationProperties
-@PropertySource("application.yml")
 @RestController
 public class Controlador {
 
